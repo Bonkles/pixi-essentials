@@ -32,12 +32,10 @@
   },
   "homepage": "https://github.com/SukantPal/pixi-essentials#readme",
   "dependencies": {
-    "@pixi-essentials/area-allocator": "~1.0.3"
-  },
-  "peerDependencies": {
-    "@pixi/core": "^6.0.0",
-    "@pixi/math": "^6.0.0",
-    "@pixi/constants": "^6.0.0"
+    "@pixi-essentials/area-allocator": "~1.0.3",
+    "@pixi/core": "^7.0.0-beta.3",
+    "@pixi/math": "^7.0.0-beta.3",
+    "@pixi/constants": "^7.0.0-beta.3"
   },
   "devDependencies": {
     "rollup": "~2.33.1",

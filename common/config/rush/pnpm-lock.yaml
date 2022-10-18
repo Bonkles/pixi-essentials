@@ -406,6 +406,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-khwRMfuHVdFk93L+bf0mmCwtSloYlfBfjdseIAbJL+VSpeMG1S2DzCYlMCPdp4mvDLU9LvkH2U2leZGEIx5j7g==
+  /@pixi/constants/7.0.0-beta.3:
+    dev: false
+    resolution:
+      integrity: sha512-bWeQoJdyKXdcI2RI+DBvq6T4BUH4a7H7M1y6IYDTkIBLKciy2ZIteN2dhFfLvkiTXvRHRLoco2mvcAumOeKLwg==
   /@pixi/core/5.3.10:
     dependencies:
       '@pixi/constants': 5.3.10
@@ -439,6 +443,19 @@ packages:
     dev: false
     resolution:
       integrity: sha512-r1ceyAz0z3usUs0uj4u2986vVT2tQixGNin2o9FNhPFDXbN5EaoKHLtrjGBt1iylK/EUH/nfL5zq0SGa/loW0A==
+  /@pixi/core/7.0.0-beta.3:
+    dependencies:
+      '@pixi/constants': 7.0.0-beta.3
+      '@pixi/extensions': 7.0.0-beta.3
+      '@pixi/math': 7.0.0-beta.3
+      '@pixi/runner': 7.0.0-beta.3
+      '@pixi/settings': 7.0.0-beta.3
+      '@pixi/ticker': 7.0.0-beta.3
+      '@pixi/utils': 7.0.0-beta.3
+      '@types/offscreencanvas': 2019.7.0
+    dev: false
+    resolution:
+      integrity: sha512-vAQaZhBGHeM/XS+bXIrcI1l8sfuWoFghEtSuFUGiD7YiSXetJ6DZrNY+Y5TGpDDpXO8CphE26j/3vsyODbYq/g==
   /@pixi/display/5.3.10:
     dependencies:
       '@pixi/math': 5.3.10
@@ -483,6 +500,10 @@ packages:
       typescript: ^3.8.3
     resolution:
       integrity: sha512-VWJansY/GywVKN9yMgRQW/ZftCl5rElvSO/FdYzSwzhaePt2qbPR6+XWmNo2JiEDkf8ZXgBt0N22dQrb5R5BlQ==
+  /@pixi/extensions/7.0.0-beta.3:
+    dev: false
+    resolution:
+      integrity: sha512-uAONOC95KwQAqNmwAkq8hSDX+A6jxTAHaCeAlUNIAmxVqS4B1EB2/CehCVvgXq1hhy2JYmm0U1n91hSEsmzB9w==
   /@pixi/extract/5.3.10:
     dependencies:
       '@pixi/core': 5.3.10
@@ -673,6 +694,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-UwZ72CeZ2KsS4IlcEXgNiuD88omPk42Dct74+1G+R2+yPI+XRZq+hGQRTle/BbFYjxh9ccdQVyX9ToGv1XTd6Q==
+  /@pixi/math/7.0.0-beta.3:
+    dev: false
+    resolution:
+      integrity: sha512-SzjGYstCLxpPV58eAyY333Jwwi1pS+g+gmYpKtmWoB81YzWueZ58epqYGdHhCVnTrBmcGd0iy0l4zp/7cM82jA==
   /@pixi/mesh-extras/5.3.10:
     dependencies:
       '@pixi/constants': 5.3.10
@@ -832,6 +857,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-ta6r36r2vC+fPB27URpSacPGQDtbJbdUoeGCJWAEwX+QI4vx4C9NYAcB0bIg8TLXiigCfA6by/RMnJ0dBiemFA==
+  /@pixi/runner/7.0.0-beta.3:
+    dev: false
+    resolution:
+      integrity: sha512-ABXrkWF+8KIQQgmaLdqltp9GD/8OvvfKhkq7Iof+0nEIN3lhEbEGVS7kBW2q5wxUxCMEtkAUVCrCdY5NcQZeDg==
   /@pixi/settings/5.3.10:
     dependencies:
       ismobilejs: 1.1.1
@@ -850,6 +879,13 @@ packages:
     dev: false
     resolution:
       integrity: sha512-djiIsmULDwcHWNmEiZKm4zyVopu1NL+fClnbBmtDkGZw7nm37y6dOcdpYawJcxvE4/KLm6pspBiRTnrzdlqW7Q==
+  /@pixi/settings/7.0.0-beta.3:
+    dependencies:
+      '@pixi/constants': 7.0.0-beta.3
+      '@types/css-font-loading-module': 0.0.7
+    dev: false
+    resolution:
+      integrity: sha512-8cNHaYelnOQRHqz9h1FbIvkD8KR+msUssFgxeP+awzXwD3DZ+79gyMlQ2JNqMq6R4zvpKdPMiaCoyue82vwX4w==
   /@pixi/sprite-animated/5.3.10:
     dependencies:
       '@pixi/core': 5.3.10
@@ -1013,6 +1049,13 @@ packages:
     dev: false
     resolution:
       integrity: sha512-PkFfPP5vHlgnApLks0Ia0okmFu6KPqBdIyquDqHJAcBdgljedm32KS6K2EH37xelBOzYHScjZ2SQGiiebVfClw==
+  /@pixi/ticker/7.0.0-beta.3:
+    dependencies:
+      '@pixi/extensions': 7.0.0-beta.3
+      '@pixi/settings': 7.0.0-beta.3
+    dev: false
+    resolution:
+      integrity: sha512-3Pi/6B2GgyZWpAil6sVErgTdNwjQuYU/Npo0yYMBoZ2q+BHot9jbAf5ZNyYfSVYH0l0vau/g0T4AxCfDi+stdQ==
   /@pixi/utils/5.3.10:
     dependencies:
       '@pixi/constants': 5.3.10
@@ -1046,6 +1089,17 @@ packages:
     dev: false
     resolution:
       integrity: sha512-35JTWsAJ8Va0vvtUSQvyOr3kGedGKVuJnHDO89B8C8tSFtMpJYrR44vp1b1p1vOjNak+ulGehZc8LzlCqymViQ==
+  /@pixi/utils/7.0.0-beta.3:
+    dependencies:
+      '@pixi/constants': 7.0.0-beta.3
+      '@pixi/settings': 7.0.0-beta.3
+      '@types/earcut': 2.1.1
+      earcut: 2.2.4
+      eventemitter3: 3.1.2
+      url: 0.11.0
+    dev: false
+    resolution:
+      integrity: sha512-x2qQEe/NAsNkx9Spn4jDDgtyP+kIll0MPeF9XsFFkz48e2LsKMek1HPa0Yi+wSQc7WlhtSxMN5m+/bMgmDeOUA==
   /@pnpm/error/1.4.0:
     dev: false
     engines:
@@ -1444,6 +1498,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-ebDJ9b0e702Yr7pWgB0jzm+CX4Srzz8RcXtLJDJB+BSccqMa36uyH/zUsSYao5+BD1ytv3k3rPYCq4mAE1hsXA==
+  /@types/css-font-loading-module/0.0.7:
+    dev: false
+    resolution:
+      integrity: sha512-nl09VhutdjINdWyXxHWN/w9zlNCfr60JUqJbd24YXUuCwgeL0TpFSdElCwb6cxfB6ybE19Gjj4g0jsgkXxKv1Q==
   /@types/earcut/2.1.1:
     dev: false
     resolution:
@@ -1476,6 +1534,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-zjQ69G564OCIWIOHSXyQEEDpdpGl+G348RAKY0XXy9Z5kU9Vzv1GMNnkar/ZJ8dzXB3COzD9Mo9NtRZ4xfgUww==
+  /@types/offscreencanvas/2019.7.0:
+    dev: false
+    resolution:
+      integrity: sha512-PGcyveRIpL1XIqK8eBsmRBt76eFgtzuPiSTyKHZxnGemp2yzGzWpjYKAfK3wIMiU7eH+851yEpiuP8JZerTmWg==
   /@types/prop-types/15.7.3:
     dev: false
     resolution:
@@ -2322,6 +2384,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-eZoZPPJcUHnfRZ0PjLvx2qBordSiO8ofC3vt+qACLM95u+4DovnbYNpQtJh0DNsWj8RnxrQytD4WA8gj5cRIaQ==
+  /earcut/2.2.4:
+    dev: false
+    resolution:
+      integrity: sha512-/pjZsA1b4RPHbeWZQn66SWS8nZZWLQQ23oE3Eam7aroEFGEvwKAsJfZ9ytiEMycfzXWpca4FA9QIOehf7PocBQ==
   /electron/11.3.0:
     dependencies:
       '@electron/get': 1.12.4
@@ -4234,7 +4300,7 @@ packages:
   /punycode/1.3.2:
     dev: false
     resolution:
-      integrity: sha1-llOgNvt8HuQjQvIyXM7v6jkmxI0=
+      integrity: sha512-RofWgt/7fL5wP1Y7fxE7/EmTLzQVnB0ycyibJ0OOHIlJqTNzglYFxVwETOcIoJqJmpDXJ9xImDv+Fq34F/d4Dw==
   /punycode/2.1.1:
     dev: false
     engines:
@@ -4242,11 +4308,12 @@ packages:
     resolution:
       integrity: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
   /querystring/0.2.0:
+    deprecated: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
     dev: false
     engines:
       node: '>=0.4.x'
     resolution:
-      integrity: sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
+      integrity: sha512-X/xY82scca2tau62i9mDyU9K+I+djTMUsvwf7xnUX5GLvVzgJybOJf4Y6o9Zx3oJK/LSXg5tTZBjwzqVPaPO2g==
   /queue-microtask/1.2.3:
     dev: false
     resolution:
@@ -5296,7 +5363,7 @@ packages:
       querystring: 0.2.0
     dev: false
     resolution:
-      integrity: sha1-ODjpfPxgUh63PFJajlW/3Z4uKPE=
+      integrity: sha512-kbailJa29QrtXnxgq+DdCEGlbTeYM2eJUxsz6vjZavrCYPMIFHMKQmSKYAIuUK2i7hgPm28a8piX5NTUtM/LKQ==
   /util-deprecate/1.0.2:
     dev: false
     resolution:
@@ -5710,7 +5777,7 @@ packages:
     dev: false
     name: '@rush-temp/react-bindings'
     resolution:
-      integrity: sha512-CaXvNHD9b6fJg9qwWfIEMpBltd7F8MunNSWFlQRcPBxygLxBK5muFe4GGgE80uZ5jzWTJLbZxLcwF4DOdNfaMg==
+      integrity: sha512-M/VTofcy5vnl3QL3iNg1iiJc2eOMfcFpuqZt83uEn1vJPt36fJ+LwQ25Doct2O2VpWuX0rMwfNSBE1dD/TintA==
       tarball: 'file:projects/react-bindings.tgz'
     version: 0.0.0
   'file:projects/shader-preprocessor.tgz':
@@ -5750,7 +5817,7 @@ packages:
     dev: false
     name: '@rush-temp/svg'
     resolution:
-      integrity: sha512-JUFVAVqnJHG42+JhjKca3okR5O67f3fTWiLY37Ygz79PG1sijl7uE01UjUg0CNnrED/z1axaaYrhV4qcy2iCUQ==
+      integrity: sha512-8e0WmLFghF378varra9MP3KxdFeB0mpJHO3TCMtxwqVLfaptDj/Yt+MTrXyLlANijMaEAVtRC5YrNdAzf/tiJg==
       tarball: 'file:projects/svg.tgz'
     version: 0.0.0
   'file:projects/system-g.tgz':
@@ -5774,9 +5841,9 @@ packages:
     dependencies:
       '@microsoft/api-extractor': 7.16.1
       '@pixi-build-tools/rollup-configurator': 1.0.14_rollup@2.33.3
-      '@pixi/constants': 6.0.4
-      '@pixi/core': 6.0.4
-      '@pixi/math': 6.0.4
+      '@pixi/constants': 7.0.0-beta.3
+      '@pixi/core': 7.0.0-beta.3
+      '@pixi/math': 7.0.0-beta.3
       eslint: 7.13.0
       rollup: 2.33.3
       tslib: 2.0.3
@@ -5784,7 +5851,7 @@ packages:
     dev: false
     name: '@rush-temp/texture-allocator'
     resolution:
-      integrity: sha512-OII7Rc83n1xvgRsxQJN+5IVCQYKGUM24tL2Qjk6PInJueK17p25PgNigrfpaCUeP5PTwPDvnzg5FmgONlfHAoQ==
+      integrity: sha512-lh/3U+JLdnw592dqRjIqjXgFFtYAdTzOKuReXNDWgFWUA2e3fsq7ctG53JnbQ9cBbDtr5tofxXcfW4y3uq5GOQ==
       tarball: 'file:projects/texture-allocator.tgz'
     version: 0.0.0
   'file:projects/transformer.tgz':

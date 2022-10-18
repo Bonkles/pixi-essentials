@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
-  "rushVersion": "5.29.1",
-  "pnpmVersion": "4.14.4",
+  "rushVersion": "5.82.0",
+  "pnpmVersion": "5.0.0",
   "pnpmOptions": {
     "pnpmStore": "global",
     "strictPeerDependencies": false,
     "resolutionStrategy": "fast"
   },
-  "nodeSupportedVersionRange": ">=10.0.0 <15.0.0",
+  "nodeSupportedVersionRange": ">=10.0.0 <=16.18.0",
   "suppressNodeLtsWarning": true,
   "repository": {
     "url": "https://github.com/SukantPal/pixi-essentials",
